@@ -558,7 +558,7 @@ class FlxUICursor extends FlxUISprite
 		{
 			case XY:
 				list.sort(_sortXYVisible);
-			case ID:
+			case SortMethod.ID:
 				list.sort(_sortIDVisible);
 		}
 	}
